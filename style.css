@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#story-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#story-text {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+#buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#buttons button:hover {
+  background-color: #0056b3;
+}
